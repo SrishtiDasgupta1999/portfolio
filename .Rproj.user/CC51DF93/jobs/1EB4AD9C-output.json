@@ -34,3 +34,8 @@
 [1,"pandoc \n  to: html\n  output-file: coolnet.html\n  standalone: true\n  title-prefix: Srishti Dasgupta\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  toc: true\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  theme: cosmo\n  title: 'CoolNet: A Framework for Climate-Adaptive Urban Infrastructure'\n  \n"]
 [1,"Output created: docs\\coolnet.html\n\nWatching files for changes\n"]
 [1,"GET: /coolnet.html\n"]
+[1,"GET: /coolnet.html\n"]
+[1,"GET: /stockholm-transit.html\n"]
+[1,"  /Report.pdf (404: Not Found)\n"]
+[1,"GET: /stockholm-transit.html\n"]
+[1,"  /Report.pdf (404: Not Found)\n"]
