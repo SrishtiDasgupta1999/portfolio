@@ -82,5 +82,40 @@
     "title": "CoolNet: A Framework for Climate-Adaptive Urban Infrastructure",
     "section": "Project Deliverables",
     "text": "Project Deliverables\n\nInteractive Spatial Map\n\n\n\n\n\n\n\n\nPresentation Slide Deck\n\n\nDownload Presentation PDF"
+  },
+  {
+    "objectID": "stockholm-transit.html",
+    "href": "stockholm-transit.html",
+    "title": "Public Transport For All?",
+    "section": "",
+    "text": "This study analyzes transit accessibility across 569 Stockholm DeSO neighborhoods using spatial econometrics to test for socio-economic inequalities."
+  },
+  {
+    "objectID": "stockholm-transit.html#overview",
+    "href": "stockholm-transit.html#overview",
+    "title": "Public Transport For All?",
+    "section": "",
+    "text": "This study analyzes transit accessibility across 569 Stockholm DeSO neighborhoods using spatial econometrics to test for socio-economic inequalities."
+  },
+  {
+    "objectID": "stockholm-transit.html#key-findings",
+    "href": "stockholm-transit.html#key-findings",
+    "title": "Public Transport For All?",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nSpatial Disparity: High transit access concentrates in affluent central areas, while low-access pockets appear in northern peripheral zones.\nModel Fit: OLS linear regression fails due to spatial autocorrelation (\\(R^2 = 0.081\\)). The Spatial Error Model (SEM) provides the best overall fit (\\(R^2 = 0.355\\))."
+  },
+  {
+    "objectID": "stockholm-transit.html#authors-supervision",
+    "href": "stockholm-transit.html#authors-supervision",
+    "title": "Public Transport For All?",
+    "section": "Authors & Supervision",
+    "text": "Authors & Supervision\n\nAuthors: Anirudh Malpani, Catherine McGarry, Srishti Dasgupta\nCourse Supervisor: Prof. Vania Ceccato"
+  },
+  {
+    "objectID": "stockholm-transit.html#project-deliverables",
+    "href": "stockholm-transit.html#project-deliverables",
+    "title": "Public Transport For All?",
+    "section": "Project Deliverables",
+    "text": "Project Deliverables\n\nPresentation Slide Deck\n\n\n\nDownload Presentation PDF\n\n\n\nFinal Project Report\n\n\n\nDownload Final Report PDF"
   }
 ]
