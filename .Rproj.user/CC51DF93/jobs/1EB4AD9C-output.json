@@ -1,0 +1,7 @@
+[1,"==> quarto preview index.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: index.html\n  standalone: true\n  title-prefix: Srishti Dasgupta\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  toc: true\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  theme: cosmo\n  title: Srishti Dasgupta\n  subtitle: MSc Sustainable Urban Planning and Design | KTH Royal Institute of Technology\n  \n"]
+[1,"Output created: docs\\index.html\n\nPreparing to preview\n"]
+[1,"\r[1/1] coolnet.qmd\n"]
+[1,"\n"]
+[1,"Watching files for changes\nBrowse at http://localhost:6675/\nListening on http://127.0.0.1:6675/\n"]
+[1,"GET: /\n"]
