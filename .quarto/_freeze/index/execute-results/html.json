@@ -1,0 +1,19 @@
+{
+  "hash": "88ada6ea4d3e5b50ca459928b8ab1b23",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"CoolNet: A Framework for Climate-Adaptive Urban Infrastructure\"\nformat: html\n---\n\n## Project Overview\n\nA spatial decision-support framework for assessing urban microclimates and thermal exposure to identify priority locations for blue-green infrastructure interventions.\n\n---\n\n## Interactive Spatial Map\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n```{=html}\n<div class=\"leaflet html-widget html-fill-item\" id=\"htmlwidget-c8bebe51ec875ac2bc54\" style=\"width:100%;height:464px;\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-c8bebe51ec875ac2bc54\">{\"x\":{\"options\":{\"crs\":{\"crsClass\":\"L.CRS.EPSG3857\",\"code\":null,\"proj4def\":null,\"projectedBounds\":null,\"options\":{}}},\"calls\":[{\"method\":\"addProviderTiles\",\"args\":[\"CartoDB.Positron\",null,null,{\"errorTileUrl\":\"\",\"noWrap\":false,\"detectRetina\":false}]}],\"setView\":[[55.605,13.0007],12,[]]},\"evals\":[],\"jsHooks\":[]}</script>\n```\n\n:::\n:::\n\n\n---\n\n## Presentation Slide Deck\n\n<iframe src=\"assets/presentation.pdf\" width=\"100%\" height=\"600px\" style=\"border:none;\"></iframe>\n\n[Download Presentation PDF](assets/presentation.pdf)\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"site_libs/htmltools-fill-0.5.9/fill.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/htmlwidgets-1.6.4/htmlwidgets.js\"></script>\n<script src=\"site_libs/jquery-3.6.0/jquery-3.6.0.min.js\"></script>\n<link href=\"site_libs/leaflet-1.3.1/leaflet.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/leaflet-1.3.1/leaflet.js\"></script>\n<link href=\"site_libs/leafletfix-1.0.0/leafletfix.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/proj4-2.6.2/proj4.min.js\"></script>\n<script src=\"site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js\"></script>\n<link href=\"site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css\" rel=\"stylesheet\" />\n<script src=\"site_libs/leaflet-binding-2.2.3/leaflet.js\"></script>\n<script src=\"site_libs/leaflet-providers-3.0.0/leaflet-providers.js\"></script>\n<script src=\"site_libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
