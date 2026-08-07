@@ -81,7 +81,7 @@
     "href": "coolnet.html#project-deliverables",
     "title": "CoolNet: A Framework for Climate-Adaptive Urban Infrastructure",
     "section": "Project Deliverables",
-    "text": "Project Deliverables\n\nInteractive Spatial Map\n\n\n\n\n\n\n\n\nPresentation Slide Deck\n\n\nDownload Presentation PDF"
+    "text": "Project Deliverables\n\nPilot Site: Malmö\n\n\n\n\n\n\n\n\nPresentation Slide Deck\n\n\nDownload Presentation PDF"
   },
   {
     "objectID": "stockholm-transit.html",
@@ -117,5 +117,12 @@
     "title": "Public Transport For All?",
     "section": "Project Deliverables",
     "text": "Project Deliverables\n\nPresentation Slide Deck\n\n\n\nDownload Presentation PDF\n\n\n\nFinal Project Report\n\n\n\nDownload Final Report PDF"
+  },
+  {
+    "objectID": "stockholm-transit.html#project-overview",
+    "href": "stockholm-transit.html#project-overview",
+    "title": "Public Transport For All?",
+    "section": "",
+    "text": "This study analyzes transit accessibility across 569 Stockholm DeSO neighborhoods using spatial econometrics to test for socio-economic inequalities."
   }
 ]
