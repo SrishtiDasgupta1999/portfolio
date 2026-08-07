@@ -1,0 +1,43 @@
+---
+title: "Public Transport For All?"
+subtitle: "Spatial Analysis of Transit Accessibility in Stockholm"
+format: html
+---
+
+## Overview
+
+This study analyzes transit accessibility across 569 Stockholm DeSO neighborhoods using spatial econometrics to test for socio-economic inequalities.
+
+## Key Findings
+
+- **Spatial Disparity:** High transit access concentrates in affluent central areas, while low-access pockets appear in northern peripheral zones.
+- **Model Fit:** OLS linear regression fails due to spatial autocorrelation ($R^2 = 0.081$). The Spatial Error Model (SEM) provides the best overall fit ($R^2 = 0.355$).
+
+## Authors & Supervision
+
+- **Authors:** Anirudh Malpani, Catherine McGarry, Srishti Dasgupta
+- **Course Supervisor:** Prof. Vania Ceccato
+
+## Project Deliverables
+
+### Presentation Slide Deck
+
+<iframe src="assets/AURA - Public Transport for All.pdf" width="100%" height="600px" style="border:none;">
+
+</iframe>
+
+<br>
+
+[Download Presentation PDF](assets/AURA%20-%20Public%20Transport%20for%20All.pdf){.btn .btn-primary role="button"}
+
+------------------------------------------------------------------------
+
+### Final Project Report
+
+<iframe src="assets/Report.pdf" width="100%" height="600px" style="border:none;">
+
+</iframe>
+
+<br>
+
+[Download Final Report PDF](assets/Report.pdf){.btn .btn-primary role="button"}
