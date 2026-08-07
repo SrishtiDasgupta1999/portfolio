@@ -3,7 +3,7 @@
     "path": "~/portfolio/stockholm-transit.qmd",
     "project_path": "stockholm-transit.qmd",
     "type": "quarto_markdown",
-    "hash": "1687692673",
+    "hash": "2365159453",
     "contents": "",
     "dirty": false,
     "created": 1786111386352.0,
@@ -18,11 +18,11 @@
         "scrollLine": "10"
     },
     "folds": "",
-    "lastKnownWriteTime": 1786115030,
+    "lastKnownWriteTime": 1786117215,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1786115030485,
+    "last_content_update": 1786117215877,
     "read_only": false,
     "read_only_alternatives": []
 }

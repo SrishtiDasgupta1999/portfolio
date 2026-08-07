@@ -3,7 +3,7 @@
     "path": "~/portfolio/coolnet.qmd",
     "project_path": "coolnet.qmd",
     "type": "quarto_markdown",
-    "hash": "1854624822",
+    "hash": "2459856968",
     "contents": "",
     "dirty": false,
     "created": 1786114133728.0,
@@ -14,15 +14,15 @@
         "rmdVisualWrapConfigured": "true",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "26,0",
+        "cursorPosition": "25,87",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1786114139,
+    "lastKnownWriteTime": 1786117183,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1786114139323,
+    "last_content_update": 1786117183799,
     "read_only": false,
     "read_only_alternatives": []
 }

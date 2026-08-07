@@ -45,8 +45,8 @@ Sustainable urban planning student with a background in architecture, urban rese
 
 ## Curriculum Vitae
 
-<iframe src="Assets/Srishti Dasgupta CV.pdf" width="100%" height="700px" style="border:none;"></iframe>
+<iframe src="assets/Srishti Dasgupta CV.pdf" width="100%" height="700px" style="border:none;"></iframe>
 
 <br>
 
-[Download Full Srishti Dasgupta CV (PDF)](Assets/Srishti Dasgupta CV.pdf){.btn .btn-primary role="button"}
+[Download Full Srishti Dasgupta CV (PDF)](assets/Srishti Dasgupta CV.pdf){.btn .btn-primary role="button"}

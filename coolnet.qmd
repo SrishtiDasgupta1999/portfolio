@@ -22,5 +22,5 @@ leaflet() %>%
   setView(lng = 13.0007, lat = 55.6050, zoom = 12)
 ```
 ### Presentation Slide Deck
-<iframe src="Assets/presentation.pdf" width="100%" height="600px" style="border:none;"></iframe>
-  [Download Presentation PDF](Assets/presentation.pdf){.btn .btn-primary role="button"}
+<iframe src="assets/presentation.pdf" width="100%" height="600px" style="border:none;"></iframe>
+  [Download Presentation PDF](assets/presentation.pdf){.btn .btn-primary role="button"}

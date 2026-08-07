@@ -23,7 +23,7 @@ This study analyzes transit accessibility across 569 Stockholm DeSO neighborhood
 
 <br>
 
-[Download Presentation PDF](Assets/AURA - Public Transport for All.pdf){.btn .btn-primary role="button"}
+[Download Presentation PDF](assets/AURA - Public Transport for All.pdf){.btn .btn-primary role="button"}
 
 ---
 
