@@ -1,0 +1,26 @@
+---
+title: "CoolNet: A Framework for Climate-Adaptive Urban Infrastructure"
+format: html
+---
+
+## Project Overview
+
+A spatial decision-support framework for assessing urban microclimates and thermal exposure to identify priority locations for blue-green infrastructure interventions.
+
+## Project Deliverables
+
+### Interactive Spatial Map
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(leaflet)
+leaflet() %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  setView(lng = 13.0007, lat = 55.6050, zoom = 12)
+```
+### Presentation Slide Deck
+<iframe src="Assets/presentation.pdf" width="100%" height="600px" style="border:none;"></iframe>
+  [Download Presentation PDF](Assets/presentation.pdf){.btn .btn-primary role="button"}

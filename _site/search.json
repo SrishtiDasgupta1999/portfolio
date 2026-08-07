@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Srishti Dasgupta",
+    "section": "",
+    "text": "Sustainable urban planning student with a background in architecture, urban research, and sustainability. Experienced in research communication, GIS-based spatial analysis, visual storytelling, and developing digital content that translates complex urban and environmental challenges into accessible narratives."
+  },
+  {
+    "objectID": "index.html#project-overview",
+    "href": "index.html#project-overview",
+    "title": "CoolNet: A Framework for Climate-Adaptive Urban Infrastructure",
+    "section": "Project Overview",
+    "text": "Project Overview\nA spatial decision-support framework for assessing urban microclimates and thermal exposure to identify priority locations for blue-green infrastructure interventions."
+  },
+  {
+    "objectID": "index.html#project-deliverables",
+    "href": "index.html#project-deliverables",
+    "title": "CoolNet: A Framework for Climate-Adaptive Urban Infrastructure",
+    "section": "Project Deliverables",
+    "text": "Project Deliverables\n\nInteractive Spatial Map\n#| echo: false #| message: false #| warning: false\nlibrary(leaflet)\nleaflet() %&gt;% addProviderTiles(providers$CartoDB.Positron) %&gt;% setView(lng = 13.0007, lat = 55.6050, zoom = 12)"
+  },
+  {
+    "objectID": "stockholm-transit.html",
+    "href": "stockholm-transit.html",
+    "title": "Public Transport For All?",
+    "section": "",
+    "text": "This study analyzes transit accessibility across 569 Stockholm DeSO neighborhoods using spatial econometrics to test for socio-economic inequalities."
+  },
+  {
+    "objectID": "stockholm-transit.html#project-overview",
+    "href": "stockholm-transit.html#project-overview",
+    "title": "Stockholm Transit: Public Transport for All",
+    "section": "",
+    "text": "A collaborative academic project focused on developing and applying spatial diagnostics, fieldwork methods, and transit network evaluation frameworks. This study examines commuter interactions, accessibility, and spatial equity across the Stockholm subway system to test methodology for inclusive transit planning."
+  },
+  {
+    "objectID": "stockholm-transit.html#project-deliverables",
+    "href": "stockholm-transit.html#project-deliverables",
+    "title": "Public Transport For All?",
+    "section": "Project Deliverables",
+    "text": "Project Deliverables\n\nPresentation Slide Deck\n\n\n\nDownload Presentation PDF\n\n\n\nFinal Project Report\n\n\n\nDownload Final Report PDF"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Srishti Dasgupta",
+    "section": "",
+    "text": "Sustainable urban planning student with a background in architecture, urban research, and sustainability. Experienced in research communication, GIS-based spatial analysis, visual storytelling, and developing digital content that translates complex urban and environmental challenges into accessible narratives."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Srishti Dasgupta",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\n\nCoolNet Framework\nClimate-Adaptive Urban Infrastructure\nExplore CoolNet Project\n\n\nStockholm Transit Accessibility\nPublic Transport for All?\nExplore Stockholm Project"
+  },
+  {
+    "objectID": "index.html#core-technical-analytical-skills",
+    "href": "index.html#core-technical-analytical-skills",
+    "title": "Srishti Dasgupta",
+    "section": "Core Technical & Analytical Skills",
+    "text": "Core Technical & Analytical Skills\n\nAnalytical & GIS: Spatial analysis (GIS, statistics, econometrics), Python (data analysis & visualization), spatial behavioral mapping.\nCommunication & Research: Research communication, content writing, digital publishing, web/content management.\nDesign & Visuals: Adobe Creative Suite (InDesign, Photoshop, Illustrator), architectural analysis, visual storytelling.\nLanguages: English (IELTS Band 8), Hindi (Bilingual), Bengali (Native), Swedish (SFI C completed / SFI D in progress, Aim till SVA 3)."
+  },
+  {
+    "objectID": "index.html#curriculum-vitae",
+    "href": "index.html#curriculum-vitae",
+    "title": "Srishti Dasgupta",
+    "section": "Curriculum Vitae",
+    "text": "Curriculum Vitae\n\n\n\nDownload Full Srishti Dasgupta CV (PDF)"
+  },
+  {
+    "objectID": "coolnet.html",
+    "href": "coolnet.html",
+    "title": "CoolNet: A Framework for Climate-Adaptive Urban Infrastructure",
+    "section": "",
+    "text": "A spatial decision-support framework for assessing urban microclimates and thermal exposure to identify priority locations for blue-green infrastructure interventions."
+  },
+  {
+    "objectID": "coolnet.html#project-overview",
+    "href": "coolnet.html#project-overview",
+    "title": "CoolNet: A Framework for Climate-Adaptive Urban Infrastructure",
+    "section": "",
+    "text": "A spatial decision-support framework for assessing urban microclimates and thermal exposure to identify priority locations for blue-green infrastructure interventions."
+  },
+  {
+    "objectID": "coolnet.html#project-deliverables",
+    "href": "coolnet.html#project-deliverables",
+    "title": "CoolNet: A Framework for Climate-Adaptive Urban Infrastructure",
+    "section": "Project Deliverables",
+    "text": "Project Deliverables\n\nInteractive Spatial Map\n\n\n\n\n\n\n\n\nPresentation Slide Deck\n\n\nDownload Presentation PDF"
+  },
+  {
+    "objectID": "stockholm-transit.html#overview",
+    "href": "stockholm-transit.html#overview",
+    "title": "Public Transport For All?",
+    "section": "",
+    "text": "This study analyzes transit accessibility across 569 Stockholm DeSO neighborhoods using spatial econometrics to test for socio-economic inequalities."
+  },
+  {
+    "objectID": "stockholm-transit.html#key-findings",
+    "href": "stockholm-transit.html#key-findings",
+    "title": "Public Transport For All?",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nSpatial Disparity: High transit access concentrates in affluent central areas, while low-access pockets appear in northern peripheral zones.\nModel Fit: OLS linear regression fails due to spatial autocorrelation (\\(R^2 = 0.081\\)). The Spatial Error Model (SEM) provides the best overall fit (\\(R^2 = 0.355\\))."
+  },
+  {
+    "objectID": "stockholm-transit.html#authors-supervision",
+    "href": "stockholm-transit.html#authors-supervision",
+    "title": "Public Transport For All?",
+    "section": "Authors & Supervision",
+    "text": "Authors & Supervision\n\nAuthors: Anirudh Malpani, Catherine McGarry, Srishti Dasgupta\nCourse Supervisor: Prof. Vania Ceccato"
+  }
+]
