@@ -3,7 +3,7 @@
     "path": "~/portfolio/stockholm-transit.qmd",
     "project_path": "stockholm-transit.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "4137554386",
     "contents": "",
     "dirty": false,
     "created": 1786111386352.0,
@@ -14,15 +14,15 @@
         "rmdVisualWrapConfigured": "true",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "36,0",
+        "cursorPosition": "35,79",
         "scrollLine": "11"
     },
     "folds": "",
-    "lastKnownWriteTime": 1786117388,
+    "lastKnownWriteTime": 1786117576,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1786117388253,
+    "last_content_update": 1786117576998,
     "read_only": false,
     "read_only_alternatives": []
 }

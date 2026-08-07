@@ -19,7 +19,7 @@ This study analyzes transit accessibility across 569 Stockholm DeSO neighborhood
 
 ### Presentation Slide Deck
 
-<iframe src="Assets/AURA - Public Transport for All.pdf" width="100%" height="600px" style="border:none;"></iframe>
+<iframe src="assets/AURA - Public Transport for All.pdf" width="100%" height="600px" style="border:none;"></iframe>
 
 <br>
 
@@ -29,7 +29,7 @@ This study analyzes transit accessibility across 569 Stockholm DeSO neighborhood
 
 ### Final Project Report
 
-<iframe src="Report.pdf" width="100%" height="600px" style="border:none;"></iframe>
+<iframe src="assets/Report.pdf" width="100%" height="600px" style="border:none;"></iframe>
 
 <br>
 
