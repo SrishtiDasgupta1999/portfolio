@@ -1,6 +1,8 @@
 ---
-title: "CoolNet: A Framework for Climate-Adaptive Urban Infrastructure"
+title: "CoolNet Framework"
 format: html
+resources:
+  - "docs/assets/presentation.pdf"
 ---
 
 ## Project Overview
@@ -163,8 +165,6 @@ leaflet(malmo) %>%
 
 ### Presentation Slide Deck
 
-<iframe src="assets/presentation.pdf" width="100%" height="600px" style="border:none;">
+{{< pdf "docs/assets/presentation.pdf" width=100% height=600px >}}
 
-</iframe>
-
-[Download Presentation PDF](assets/presentation.pdf){.btn .btn-primary role="button"}
+\[📄 Download Presentation PDF\](docs/assets/presentation.pdf){.btn .btn-primary role="button" target="\_blank"}
