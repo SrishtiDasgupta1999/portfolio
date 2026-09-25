@@ -36,7 +36,7 @@ pal_water <- colorNumeric("PuBu",   domain = malmo$Dist_Water)
 
 # 3. Build Leaflet Map
 leaflet(malmo) %>%
-  addProviderTiles(providers$CartoDB.Positron) %>%
+  addProviderTiles(providers$Esri.WorldGrayCanvas) %>%
   
   # Layer 1: MCDA Priority Score
   addPolygons(
@@ -107,7 +107,7 @@ leaflet(malmo) %>%
     popup = ~paste0("<strong>DeSO Code: </strong>", desokod, "<br/><strong>Dist. Water: </strong>", sprintf("%.1f", Dist_Water), " m")
   ) %>%
   
-  # Add Legends (Each marked with a unique class name)
+  # Add Legends
   addLegend(pal = pal_mcda,  values = ~MCDA.Score,  opacity = 0.8, title = "MCDA Score",  position = "bottomright", className = "info legend leg-mcda") %>%
   addLegend(pal = pal_uhi,   values = ~UHI_mean,    opacity = 0.8, title = "UHI (°C)",    position = "bottomright", className = "info legend leg-uhi") %>%
   addLegend(pal = pal_ndvi,  values = ~NVDI_mean,   opacity = 0.8, title = "NDVI",        position = "bottomright", className = "info legend leg-ndvi") %>%
@@ -121,7 +121,7 @@ leaflet(malmo) %>%
     options = layersControlOptions(collapsed = FALSE)
   ) %>%
   
-  # JavaScript to hide all inactive legends and show only the active one
+  # JavaScript Legend Switcher
   htmlwidgets::onRender("
     function(el, x) {
       var map = this;
@@ -135,14 +135,12 @@ leaflet(malmo) %>%
       };
 
       function syncLegends(layerName) {
-        // Hide all legends
         Object.values(legendClassMap).forEach(function(cls) {
           var elms = document.getElementsByClassName(cls);
           for (var i = 0; i < elms.length; i++) {
             elms[i].style.display = 'none';
           }
         });
-        // Show target legend
         var activeClass = legendClassMap[layerName];
         if (activeClass) {
           var activeElms = document.getElementsByClassName(activeClass);
@@ -152,16 +150,15 @@ leaflet(malmo) %>%
         }
       }
 
-      // Initial state: show MCDA legend
       syncLegends('MCDA Priority Score');
 
-      // Listen for base layer changes
       map.on('baselayerchange', function(e) {
         syncLegends(e.name);
       });
     }
   ")
 ```
+  #
 
 ### Presentation Slide Deck
 
