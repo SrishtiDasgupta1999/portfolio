@@ -6,9 +6,13 @@ resources:
   - "docs/assets/Srishti Dasgupta CV.pdf"
 ---
 
-## About Me
+## Hi, I’m Srishti.
 
-I am interested in how cities can become more resilient to the environmental and social challenges they face. I like exploring questions around climate adaptation, mobility, and sustainable urban development, and how research and spatial analysis can help us understand these challenges and imagine different ways of shaping our cities.
+I’m an architect turned urban planning researcher, currently studying Sustainable Urban Planning and Design at KTH in Stockholm.
+
+I’m interested in resilient cities and the different questions that come with trying to make them more sustainable: how places adapt to climate change, how people move through them, how resources are distributed, and how we make decisions about their future.
+
+This portfolio is a collection of the questions I’ve been exploring along the way.
 
 ------------------------------------------------------------------------
 
@@ -20,7 +24,7 @@ I am interested in how cities can become more resilient to the environmental and
 
 **Climate-Adaptive Urban Infrastructure**
 
-[Explore CoolNet Project](coolnet.qmd){.btn .btn-outline-primary role="button"}
+[CoolNet Project](coolnet.qmd){.btn .btn-outline-primary role="button"}
 :::
 
 ::: g-col-6
@@ -28,7 +32,7 @@ I am interested in how cities can become more resilient to the environmental and
 
 **Public Transport for All?**
 
-[Explore Stockholm Project](stockholm-transit.qmd){.btn .btn-outline-primary role="button"}
+[Stockholm transit Project](stockholm-transit.qmd){.btn .btn-outline-primary role="button"}
 :::
 :::::
 
