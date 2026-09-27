@@ -2,6 +2,9 @@
 title: "Academic Projects"
 subtitle: "Impact & Environmental Assessment Studies"
 format: html
+resources:
+  - "docs/assets/Environmental aspects of built environment_Bergshamra).pdf"
+  - "docs/assets/Strategic environment assessment report.pdf"
 ---
 
 ## 1. Environmental Aspects of the Built Environment
