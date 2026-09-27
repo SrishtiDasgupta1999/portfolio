@@ -16,7 +16,7 @@ This portfolio is a collection of the questions I’ve been exploring along the 
 
 ## Featured Projects
 
-::::: grid
+:::::: grid
 ::: g-col-6
 **Climate-Adaptive Urban Infrastructure**
 
@@ -34,7 +34,7 @@ This portfolio is a collection of the questions I’ve been exploring along the 
 
 [Academic Works](Academic%20work.qmd){.btn .btn-outline-primary role="button"}
 :::
-:::::
+::::::
 
 ------------------------------------------------------------------------
 
