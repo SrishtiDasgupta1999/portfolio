@@ -3,7 +3,7 @@
     "path": "~/portfolio/coolnet.qmd",
     "project_path": "coolnet.qmd",
     "type": "quarto_markdown",
-    "hash": "3629542805",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1786114133728.0,
@@ -18,7 +18,7 @@
         "scrollLine": "0",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "495:200"
+        "rmdVisualModeLocation": "769:100"
     },
     "folds": "",
     "lastKnownWriteTime": 1790551683,
