@@ -3,7 +3,7 @@
     "path": "~/portfolio/Academic work.qmd",
     "project_path": "Academic work.qmd",
     "type": "quarto_markdown",
-    "hash": "2820643053",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1790549752287.0,
@@ -18,15 +18,15 @@
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
         "cursorPosition": "9,0",
-        "scrollLine": "4",
-        "rmdVisualModeLocation": "2182:1108.800048828125"
+        "scrollLine": "2",
+        "rmdVisualModeLocation": "787:155.1999969482422"
     },
     "folds": "",
-    "lastKnownWriteTime": 1790551614,
+    "lastKnownWriteTime": 1790551791,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1790551614723,
+    "last_content_update": 1790551791931,
     "read_only": false,
     "read_only_alternatives": []
 }
