@@ -11,7 +11,7 @@ The starting point for CoolNet was urban heat. I wanted to go beyond mapping whe
 
 Using Malmö as a pilot, I combined heat, vegetation, built form, income, and proximity to water to identify areas where several factors overlap. The framework then explores how existing infrastructure could be used as an asset for adaptation, rather than treating every intervention as something that needs to be newly built.
 
-How can we use what a city already has to make it more resilient to heat?
+***How can we use what a city already has to make it more resilient to heat?***
 
 ## Project Deliverables
 
@@ -162,7 +162,8 @@ leaflet(malmo) %>%
     }
   ")
 ```
-  #
+
+\#
 
 ### Presentation Slide Deck
 
