@@ -12,6 +12,8 @@ website:
         href: stockholm-transit.qmd
       - text: "COOLNET"
         href: coolnet.qmd
+      - text: "Academic Works"
+        href: academic.qmd
 
 format:
   html:

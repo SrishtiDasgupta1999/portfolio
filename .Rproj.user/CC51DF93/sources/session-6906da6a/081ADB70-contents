@@ -1,0 +1,55 @@
+---
+title: "Academic Projects"
+subtitle: "Impact & Environmental Assessment Studies"
+format: html
+---
+
+## 1. Environmental Aspects of the Built Environment
+
+**Project Focus:** Bergshamra Environmental Assessment & Urban Impact  
+**File:** `bergshamra-report.pdf`
+
+This report evaluates the environmental dimensions and localized impact of urban development within Bergshamra. The study analyzes ecological connectivity, microclimate considerations, and spatial integration within the built environment framework.
+
+* **Project Team:** Summer Clift, Srishti Dasgupta, Elin Ferenius, Linnéa Ingren, Joel-Wassily Monarrez Lachhein, Cornelia Wahlin
+* **Supervisor:** Tove Malmqvist Stigell
+
+```{=html}
+<div style="position: relative; padding-bottom: 75%; height: 0; overflow: hidden; max-width: 100%; margin-top: 15px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 8px;">
+  <iframe 
+    src="bergshamra-report.pdf" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+    type="application/pdf">
+  </iframe>
+</div>
+
+<p>
+  <a href="bergshamra-report.pdf" target="_blank" class="btn btn-outline-primary btn-sm" role="button">
+    📄 View / Download Bergshamra Report (PDF)
+  </a>
+</p>
+
+# 2. Strategic Environmental Assessment (SEA)
+
+**Project Focus:** Municipal Comprehensive Plan Evaluation (Linköping)  
+**File:** `Strategic environment assessment report.pdf`
+
+A statutory Strategic Environmental Assessment evaluating the municipal comprehensive plan (*Översiktsplan*) for Linköping Municipality under Swedish environmental legislation (*Miljöbalken* 1998:808 and *PBL* 2010:900).
+
+* **Project Team:** Giuseppe Todaro, Emilian Tietze, Srishti Dasgupta, Siri Åsman, Frida Yousef Lahdo, Zexuan Zhang
+* **Supervisor / Examiner:** Berit Brokking Balfors
+
+```{=html}
+<div style="position: relative; padding-bottom: 75%; height: 0; overflow: hidden; max-width: 100%; margin-top: 15px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 8px;">
+  <iframe 
+    src="Strategic environment assessment report.pdf" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+    type="application/pdf">
+  </iframe>
+</div>
+
+<p>
+  <a href="Strategic environment assessment report.pdf" target="_blank" class="btn btn-outline-primary btn-sm" role="button">
+    📄 View / Download Linköping SEA Report (PDF)
+  </a>
+</p>
