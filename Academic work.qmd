@@ -24,6 +24,9 @@ This report evaluates the environmental dimensions and localized impact of urban
 
 <p><a href="docs/assets/Environmental aspects of built environment_Bergshamra).pdf" target="_blank" class="btn btn-outline-primary btn-sm" role="button"> 📄 View / Download Bergshamra Report (PDF) </a></p>
 
+
+## 2. Strategic Environmental assessment
+
 **Project Focus:** Municipal Comprehensive Plan Evaluation (Linköping)
 
 A statutory Strategic Environmental Assessment evaluating the municipal comprehensive plan (*Översiktsplan*) for Linköping Municipality under Swedish environmental legislation (*Miljöbalken* 1998:808 and *PBL* 2010:900).

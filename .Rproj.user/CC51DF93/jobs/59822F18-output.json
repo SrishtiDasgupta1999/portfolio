@@ -1,0 +1,7 @@
+[1,"==> quarto preview Academic work.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: Academic work.html\n  standalone: true\n  title-prefix: Srishti Dasgupta\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  toc: true\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  theme: cosmo\n  title: Academic Projects\n  subtitle: Impact & Environmental Assessment Studies\n  resources:\n    - docs/assets/Environmental aspects of built environment_Bergshamra).pdf\n    - docs/assets/Strategic environment assessment report.pdf\n  \n"]
+[1,"WARN: Unable to resolve link target: academic.qmd\n"]
+[1,"Output created: docs\\Academic work.html\n\nPreparing to preview\n"]
+[1,"\nWatching files for changes\nBrowse at http://localhost:5116/Academic work.html\nListening on http://127.0.0.1:5116/\n"]
+[1,"WARN: Unable to resolve link target: academic.qmd\n"]
+[1,"GET: /Academic work.html\n"]
