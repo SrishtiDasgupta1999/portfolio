@@ -1,14 +1,14 @@
 {
-    "id": "081ADB70",
-    "path": "~/portfolio/Academic work.qmd",
-    "project_path": "Academic work.qmd",
+    "id": "5E79D1CB",
+    "path": "~/portfolio/sodertalje-parking.qmd",
+    "project_path": "sodertalje-parking.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "3377495989",
     "contents": "",
     "dirty": false,
-    "created": 1790549752287.0,
+    "created": 1793709537685.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 6,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -17,16 +17,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "27,4",
+        "cursorPosition": "19,0",
         "scrollLine": "16",
-        "rmdVisualModeLocation": "255:448.79998779296875"
+        "rmdVisualModeLocation": "148:133.60000610351562"
     },
     "folds": "",
-    "lastKnownWriteTime": 1791449053,
+    "lastKnownWriteTime": 1793727088,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1791449053446,
+    "last_content_update": 1793727088166,
     "read_only": false,
     "read_only_alternatives": []
 }
