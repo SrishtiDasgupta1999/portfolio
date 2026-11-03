@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Srishti Dasgupta"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.html
+      - text: "Spatial Analysis Projects"
+        menu:
+          - text: "Södertälje Parking"
+            href: sodertalje-parking.html
+          - text: "Stockholm Transit"
+            href: stockholm-transit.html
+          - text: "COOLNET"
+            href: coolnet.html
+      - text: "Academic Works"
+        href: Academic work.html
+
+format:
+  html:
+    theme: cosmo
+    toc: true

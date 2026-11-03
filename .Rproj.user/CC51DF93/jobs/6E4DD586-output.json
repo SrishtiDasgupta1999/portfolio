@@ -1,0 +1,8 @@
+[1,"==> quarto preview index.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: index.html\n  standalone: true\n  title-prefix: Srishti Dasgupta\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  toc: true\n  \nmetadata\n  pagetitle: Srishti Dasgupta\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  theme: cosmo\n  resources:\n    - docs/assets/Srishti Dasgupta CV.pdf\n  \n"]
+[1,"WARN: Unable to resolve link target: academic.qmd\n"]
+[1,"Output created: docs\\index.html\n\nPreparing to preview\n"]
+[1,"\nWatching files for changes\nBrowse at http://localhost:6183/\nListening on http://127.0.0.1:6183/\n"]
+[1,"WARN: Unable to resolve link target: academic.qmd\n"]
+[1,"GET: /\n"]
+[1,"GET: /Academic work.html\n"]

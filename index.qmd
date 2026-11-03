@@ -17,22 +17,28 @@ This portfolio is a collection of the questions I’ve been exploring along the 
 ## Featured Projects
 
 :::::: grid
-::: g-col-6
+::: g-col-4
 **Climate-Adaptive Urban Infrastructure**
 
 [CoolNet Project](coolnet.qmd){.btn .btn-outline-primary role="button"}
 :::
 
-::: g-col-6
+::: g-col-4
 **Public Transport for All?**
 
-[Stockholm transit Project](stockholm-transit.qmd){.btn .btn-outline-primary role="button"}
+[Stockholm Transit](stockholm-transit.qmd){.btn .btn-outline-primary role="button"}
 :::
 
 ::: g-col-4
-**Other Academic work**
+**Surface Parking Optimization**
 
-[Academic Works](Academic%20work.qmd){.btn .btn-outline-primary role="button"}
+[Södertälje Parking](sodertalje-parking.qmd){.btn .btn-outline-primary role="button"}
+:::
+
+::: g-col-12
+**Other Academic Work**
+
+[Academic Works](academic.qmd){.btn .btn-outline-primary role="button"}
 :::
 ::::::
 

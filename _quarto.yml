@@ -7,13 +7,17 @@ website:
   navbar:
     left:
       - text: "Home"
-        href: index.qmd
-      - text: "Stockholm Transit"
-        href: stockholm-transit.qmd
-      - text: "COOLNET"
-        href: coolnet.qmd
+        href: index.html
+      - text: "Spatial Analysis Projects"
+        menu:
+          - text: "Södertälje Parking"
+            href: sodertalje-parking.html
+          - text: "Stockholm Transit"
+            href: stockholm-transit.html
+          - text: "COOLNET"
+            href: coolnet.html
       - text: "Academic Works"
-        href: academic.qmd
+        href: Academic work.html
 
 format:
   html:

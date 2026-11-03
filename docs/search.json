@@ -46,7 +46,7 @@
     "href": "index.html#featured-projects",
     "title": "Srishti Dasgupta",
     "section": "Featured Projects",
-    "text": "Featured Projects\n\n\nClimate-Adaptive Urban Infrastructure\nCoolNet Project\n\n\nPublic Transport for All?\nStockholm transit Project\n\n\nOther Academic work\nAcademic Works"
+    "text": "Featured Projects\n\n\nClimate-Adaptive Urban Infrastructure\nCoolNet Project\n\n\nPublic Transport for All?\nStockholm Transit\n\n\nSurface Parking Optimization\nSödertälje Parking\n\n\nOther Academic Work\nAcademic Works"
   },
   {
     "objectID": "index.html#core-technical-analytical-skills",
@@ -159,5 +159,47 @@
     "title": "Academic Projects",
     "section": "2. Strategic Environmental assessment",
     "text": "2. Strategic Environmental assessment\nProject Focus: Municipal Comprehensive Plan Evaluation (Linköping)\nA statutory Strategic Environmental Assessment evaluating the municipal comprehensive plan (Översiktsplan) for Linköping Municipality under Swedish environmental legislation (Miljöbalken 1998:808 and PBL 2010:900).\n\nProject Team: Giuseppe Todaro, Emilian Tietze, Srishti Dasgupta, Siri Åsman, Frida Yousef Lahdo, Zexuan Zhang\nSupervisor / Examiner: Berit Brokking Balfors\n\n\n\n\n\n\n 📄 View / Download Linköping SEA Report (PDF)"
+  },
+  {
+    "objectID": "sodertalje-parking.html",
+    "href": "sodertalje-parking.html",
+    "title": "Surface Parking Optimization in Södertälje",
+    "section": "",
+    "text": "This project explores how surface parking can be re-evaluated to build more resilient and climate-adapted cities. Sprawling asphalt footprints lock up strategic land, aggravate urban heat island effects, and increase impervious surface runoff. By reducing unneeded surface paving and integrating these spaces with sustainable mobility networks, land can be unlocked for green infrastructure, active transport, and community use.\nWhile this study focuses specifically on spatial evaluation and tiering of parking lots, it forms part of a broader process examining how land-use planning and sustainable mobility intersect to support long-term urban resilience. ## Analytical Logic & Workflow\nRather than treating all parking lots uniformly, a logical, step-by-step filtering workflow was implemented:\n\nLand Use & Ownership Categorization: Parking lots were first categorized based on land ownership and operator type (such as municipal land, industrial operations, and commercial holdings) to identify management structures.\n\n\n\n\nParking Operator and Ownership\n\n\n\nMulti-Criteria Evaluation: Multiple distinct factors were evaluated simultaneously for every parcel by combining land ownership, spatial area thresholds (\\(\\ge 1,000\\text{ m}^2\\) or \\(\\ge 800\\text{ m}^2\\)), and edge-to-node walking distances to public transport stops.\nFeasibility & Intervention Tiers: By integrating these criteria together, lots were classified into actionable intervention tiers. This allows planners to evaluate which sites are most feasible for surface reduction, public land release, industrial pooling, or ecological depaving.\n\n\n\n\n\n\n\n\n\nIntervention Tier\nTarget Criteria / Focus\nAction / Strategy\n\n\n\n\nTier 1\nPublic Land\nSustainable Mobility & Public Space Reallocation\n\n\nTier 2\nIndustrial Holdings\nIndustrial Parking Coordination\n\n\nTier 3\nSurface Parking Lots\nSurface Parking Conversion / Potential Conversion\n\n\nFurther Assessment\nUnclassified / Mixed Parcels\nRequires Detailed Local Feasibility Study\n\n\n\nNote: Minimal literature and theory review was conducted for this exploratory phase, so these findings should be viewed with a pinch of salt."
+  },
+  {
+    "objectID": "sodertalje-parking.html#project-overview",
+    "href": "sodertalje-parking.html#project-overview",
+    "title": "Surface Parking Optimization in Södertälje",
+    "section": "",
+    "text": "This project explores how surface parking can be re-evaluated to build more resilient and climate-adapted cities. Sprawling asphalt footprints lock up strategic land, aggravate urban heat island effects, and increase impervious surface runoff. By reducing unneeded surface paving and integrating these spaces with sustainable mobility networks, land can be unlocked for green infrastructure, active transport, and community use.\nWhile this study focuses specifically on spatial evaluation and tiering of parking lots, it forms part of a broader process examining how land-use planning and sustainable mobility intersect to support long-term urban resilience. ## Analytical Logic & Workflow\nRather than treating all parking lots uniformly, a logical, step-by-step filtering workflow was implemented:\n\nLand Use & Ownership Categorization: Parking lots were first categorized based on land ownership and operator type (such as municipal land, industrial operations, and commercial holdings) to identify management structures.\n\n\n\n\nParking Operator and Ownership\n\n\n\nMulti-Criteria Evaluation: Multiple distinct factors were evaluated simultaneously for every parcel by combining land ownership, spatial area thresholds (\\(\\ge 1,000\\text{ m}^2\\) or \\(\\ge 800\\text{ m}^2\\)), and edge-to-node walking distances to public transport stops.\nFeasibility & Intervention Tiers: By integrating these criteria together, lots were classified into actionable intervention tiers. This allows planners to evaluate which sites are most feasible for surface reduction, public land release, industrial pooling, or ecological depaving.\n\n\n\n\n\n\n\n\n\nIntervention Tier\nTarget Criteria / Focus\nAction / Strategy\n\n\n\n\nTier 1\nPublic Land\nSustainable Mobility & Public Space Reallocation\n\n\nTier 2\nIndustrial Holdings\nIndustrial Parking Coordination\n\n\nTier 3\nSurface Parking Lots\nSurface Parking Conversion / Potential Conversion\n\n\nFurther Assessment\nUnclassified / Mixed Parcels\nRequires Detailed Local Feasibility Study\n\n\n\nNote: Minimal literature and theory review was conducted for this exploratory phase, so these findings should be viewed with a pinch of salt."
+  },
+  {
+    "objectID": "sodertalje-parking.html#project-overview-1",
+    "href": "sodertalje-parking.html#project-overview-1",
+    "title": "Surface Parking Optimization in Södertälje",
+    "section": "Project Overview",
+    "text": "Project Overview\nThis project explores how we can rethink surface parking to build more resilient and climate-adapted cities. Sprawling asphalt and surface parking lots lock up valuable land, increase urban heat, and worsen stormwater runoff. By reducing unneeded surface paving and integrating these spaces with sustainable mobility networks, cities can free up land for green infrastructure and community use.\nWhile this specific study focuses on the spatial evaluation and tiering of parking lots, it forms part of a broader ongoing process looking at how land-use planning and sustainable transport intersect to shape future urban resilience for one of my academic project. I took this up as independent research to explore methods of categorizing surface parking."
+  },
+  {
+    "objectID": "sodertalje-parking.html#analytical-logic-workflow",
+    "href": "sodertalje-parking.html#analytical-logic-workflow",
+    "title": "Surface Parking Optimization in Södertälje",
+    "section": "Analytical Logic & Workflow",
+    "text": "Analytical Logic & Workflow\nRather than treating all parking lots uniformly, a logical, step-by-step filtering workflow was implemented:\n\nLand Use & Ownership Categorization: Parking lots were first categorized based on land ownership and operator type (such as municipal land, industrial operations, and commercial holdings) to identify management structures. \nMulti-Criteria Evaluation: Multiple distinct factors were evaluated simultaneously for every parcel by combining land ownership, spatial area thresholds (\\(\\ge 1,000\\text{ m}^2\\) or \\(\\ge 800\\text{ m}^2\\)), and edge-to-node walking distances to public transport stops.\nFeasibility & Intervention Tiers: By integrating these criteria together, lots were classified into actionable intervention tiers. This allows planners to evaluate which sites are most feasible for surface reduction, public land release, industrial pooling, or ecological depaving.\n\nNote: Minimal literature and theory review was conducted for this exploratory phase, so these findings should be viewed with a pinch of salt."
+  },
+  {
+    "objectID": "sodertalje-parking.html#interactive-spatial-exploration",
+    "href": "sodertalje-parking.html#interactive-spatial-exploration",
+    "title": "Surface Parking Optimization in Södertälje",
+    "section": "Interactive Spatial Exploration",
+    "text": "Interactive Spatial Exploration\n\n\n\n\n\n\n\n```"
+  },
+  {
+    "objectID": "sodertalje-parking.html#interactive-map",
+    "href": "sodertalje-parking.html#interactive-map",
+    "title": "Surface Parking Optimization in Södertälje",
+    "section": "Interactive map",
+    "text": "Interactive map"
   }
 ]

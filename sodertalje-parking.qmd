@@ -1,0 +1,98 @@
+---
+title: "Surface Parking Optimization in Södertälje"
+subtitle: "A Spatial Decision-Support Framework for Urban Land Reallocation"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: flatly
+    code-fold: true
+---
+
+## Project Overview
+
+This project explores how surface parking can be re-evaluated to build more resilient and climate-adapted cities. Sprawling asphalt footprints lock up strategic land, aggravate urban heat island effects, and increase impervious surface runoff. By reducing unneeded surface paving and integrating these spaces with sustainable mobility networks, land can be unlocked for green infrastructure, active transport, and community use.
+
+While this study focuses specifically on spatial evaluation and tiering of parking lots, it forms part of a broader process examining how land-use planning and sustainable mobility intersect to support long-term urban resilience.
+## Analytical Logic & Workflow
+
+Rather than treating all parking lots uniformly, a logical, step-by-step filtering workflow was implemented:
+
+1. **Land Use & Ownership Categorization:** Parking lots were first categorized based on land ownership and operator type (such as municipal land, industrial operations, and commercial holdings) to identify management structures.
+
+![Parking Operator and Ownership](../parking.jpeg)
+
+2. **Multi-Criteria Evaluation:** Multiple distinct factors were evaluated simultaneously for every parcel by combining land ownership, spatial area thresholds ($\ge 1,000\text{ m}^2$ or $\ge 800\text{ m}^2$), and edge-to-node walking distances to public transport stops.
+3. **Feasibility & Intervention Tiers:** By integrating these criteria together, lots were classified into actionable intervention tiers. This allows planners to evaluate which sites are most feasible for surface reduction, public land release, industrial pooling, or ecological depaving.
+
+| Intervention Tier | Target Criteria / Focus | Action / Strategy |
+| :--- | :--- | :--- |
+| **Tier 1** | Public Land | Sustainable Mobility & Public Space Reallocation |
+| **Tier 2** | Industrial Holdings | Industrial Parking Coordination |
+| **Tier 3** | Surface Parking Lots | Surface Parking Conversion / Potential Conversion |
+| **Further Assessment** | Unclassified / Mixed Parcels | Requires Detailed Local Feasibility Study |
+
+*Note: Minimal literature and theory review was conducted for this exploratory phase, so these findings should be viewed with a pinch of salt.*
+
+------------------------------------------------------------------------
+
+## Interactive map
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(sf)
+library(leaflet)
+library(htmlwidgets)
+
+# 1. Load GeoJSON dataset from docs/ and transform CRS to WGS84
+parking_data <- st_read("docs/sodertalje_parking_tiers.geojson", quiet = TRUE, int64_as_string = TRUE) %>% 
+  st_transform(crs = 4326)
+
+# 2. Standardize column names automatically
+names(parking_data) <- make.names(names(parking_data))
+
+# 3. Define Color Palette for Intervention Tiers
+tier_palette <- colorFactor(
+  palette = c(
+    "Further Assessment Required"                              = "#333333",
+    "Tier 1: Public Land – Sustainable Mobility & Public Space" = "#969696",
+    "Tier 2: Industrial Parking Coordination"                  = "#E41A1C",
+    "Tier 3: Surface Parking Conversion"                       = "#FD8D3C",
+    "Tier 3: Surface Parking – Potential Conversion"           = "#FDBB84"
+  ),
+  domain = parking_data$reduction
+)
+
+# 4. Build Leaflet Map with Satellite Background Only
+leaflet(parking_data) %>%
+  addProviderTiles(providers$Esri.WorldImagery) %>%
+  
+  # Parking Intervention Tiers Layer
+  addPolygons(
+    fillColor   = ~tier_palette(reduction),
+    fillOpacity = 0.85,
+    weight      = 1,
+    color       = "#ffffff",
+    dashArray   = "3",
+    highlightOptions = highlightOptions(weight = 3, color = "#444", fillOpacity = 0.9, bringToFront = TRUE),
+    popup       = ~paste0(
+      "<b>Intervention Tier:</b> ", reduction, "<br/>",
+      "<b>Land Category / Operator:</b> ", ifelse(is.na(land.cat.op), "Unspecified", land.cat.op), "<br/>",
+      "<b>Area:</b> ", round(as.numeric(Area.m2), 0), " m²<br/>",
+      "<b>Distance to Transit:</b> ", round(as.numeric(distance), 1), " m"
+    )
+  ) %>%
+  
+  # Single Clean Legend for Tiers
+  addLegend(
+    position = "bottomright",
+    pal      = tier_palette,
+    values   = ~reduction,
+    title    = "Reduction logic",
+    opacity  = 0.9
+  )
+```
+
